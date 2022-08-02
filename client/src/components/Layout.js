@@ -98,6 +98,7 @@ function Layout({ children }) {
               onClick={() => {
                 localStorage.clear();
                 navigate("/login");
+                window.location.reload(true);
               }}
             >
               <Link to="/login">
